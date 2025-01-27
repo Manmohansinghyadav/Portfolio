@@ -18,9 +18,11 @@ const Hero = () => {
           </h1>
           <h2 className="text-2xl font-semibold mt-2 text-gray-800 dark:text-gray-300">Frontend Developer</h2>
           <p className="mt-4 text-gray-600 dark:text-gray-400">I Design Web Application for my Clients and Company. If you want to make your Website, Contact me.</p>
-          <button className="mt-6 px-6 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-600">
-            Contact Me
-          </button>
+          <a href="#contact">
+            <button className="mt-6 px-6 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-600"  >
+              Contact Me
+            </button>
+          </a>
         </div>
         <img src={DevImg} alt="Developer Illustration" className="w-1/2 " />
       </div>
