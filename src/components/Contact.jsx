@@ -19,6 +19,13 @@ const Contact = () => {
     e.preventDefault();
     const form = e.target;
 
+    // Clear the form before sending the request
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
+
     // Send form data to Formspree using the POST method
     const response = await fetch('https://formspree.io/f/meoealge', { // Replace with your Formspree endpoint
       method: 'POST',
@@ -30,13 +37,6 @@ const Contact = () => {
     } else {
       setStatus('There was an error sending your message.');
     }
-
-    // Reset form fields
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
-    });
   };
 
   return (
