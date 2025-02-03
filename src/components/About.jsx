@@ -19,7 +19,7 @@ const About = () => {
           with me to discuss your project requirements.
         </p>
         <button className="px-6 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 flex ">
-          <a href="https://drive.google.com/file/d/1T2Dn80RO1HuGWjGY5bgM-nhMK9debXV-/view?usp=sharing" alt="../assets/Manmohan singh.pdf">Download CV</a>
+          <a href="https://drive.google.com/file/d/1T2Dn80RO1HuGWjGY5bgM-nhMK9debXV-/view?usp=sharing" alt="../assets/Manmohan singh.pdf">Download Resume</a>
         </button>
       </div>
     </section>
