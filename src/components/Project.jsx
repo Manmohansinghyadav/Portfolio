@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import p1 from '../assets/asset 3.png';
 import p2 from '../assets/asset 4.png';
 import p3 from '../assets/Pokemon.png';
-import p4 from '../assets/OIP.jpg';
+import p4 from '../assets/milkCal.png';
 import p5 from '../assets/OIP.jpg';
 import { FaLink } from "react-icons/fa"; 
 
@@ -11,7 +11,7 @@ const portfolioData = [
   { id: 1, title: 'Project 1', category: 'Website', image: p1, link: 'https://manmohansinghyadav.github.io/my-app/' },
   { id: 2, title: 'Project 2', category: 'Application', image: p2, link: 'https://manmohansinghyadav.github.io/TikTakToc/' },
   { id: 3, title: 'Project 3', category: 'Application', image: p3, link: 'https://pokedexsearchm.netlify.app/' },
-  { id: 4, title: 'Project 4', category: 'Application', image: p4, link: 'https://example.com/project4' },
+  { id: 4, title: 'Project 4', category: 'Application', image: p4, link: 'https://milkcalculator.onrender.com/' },
   { id: 5, title: 'Project 5', category: 'Website', image: p5, link: 'https://example.com/project5' },
 ];
 
